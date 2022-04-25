@@ -1,0 +1,21 @@
+/*This is the default css file*/
+
+p {
+    font-size: medium;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
+    color: rgb(80, 80, 80);
+}
+
+h3 {
+    font-size: large;
+    color: rgb(80, 80, 80);
+}
+
