@@ -19,3 +19,11 @@ h3 {
     color: rgb(80, 80, 80);
 }
 
+ul {
+    list-style-type: "> ";
+}
+
+.caption {
+    font-size: x-small;
+    font-style: italic;
+}
