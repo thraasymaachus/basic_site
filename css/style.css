@@ -1,5 +1,19 @@
 /*This is the default css file*/
 
+html   {
+    height: 100%;
+    margin: 0;
+}
+
+body   {
+    margin: 0;
+    background: linear-gradient(180deg, rgb(223, 217, 203), rgb(183, 194, 197)) fixed;
+    height: 100%;
+    overflow-anchor: none; /*Stops the browser from altering scroll behaviour*/
+    max-width: 800px;
+    padding: 10px;
+}
+
 p {
     font-size: medium;
     color: rgb(0, 0, 0);
@@ -26,14 +40,9 @@ ul {
 .caption {
     font-size: small;
     font-style: italic;
-    padding: 0px;
 }
 
-.mainImg {
+#mainImg {
     max-height: 200px;
     width: auto;
-}
-
-#mainContainer {
-    max-width: 800px;
 }
